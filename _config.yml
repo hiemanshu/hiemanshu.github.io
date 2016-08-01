@@ -1,0 +1,40 @@
+# Permalinks
+permalink:        pretty
+
+# Setup
+url:              http://theindiangeek.in
+
+# Set to '' in case of hosting on `http://<your-github-name>.github.io`
+baseurl:          ''
+
+title:            Hiemanshu Sharma
+
+# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
+description:      >
+  Father. Engineer. Gamer.
+
+# The tags listed as entries in the sidebar
+sidebar_tags:     []
+
+# Fallback image and color if not overwritten for tag or post
+image:            /public/img/home.jpg
+color:            '#A85641'
+
+author:
+  name:           'Hiemanshu Sharma'
+
+  # Setting social media usernames will add icons at the bottom of the sidebar
+  twitter:        _TheDarkRider
+  github:         hiemanshu
+
+  # This photo will be used in the about section
+  photo:          /public/img/hiemanshu.png
+
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:          |
+    Hi, I'm Hiemanshu or [`@_TheDarkRider`](https://twitter.com/_TheDarkRider). I currently head the tech behind [bidPress](https://www.bidpress.com/).
+
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    preview: true
