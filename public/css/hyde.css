@@ -346,11 +346,21 @@ a:focus::before {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-icon-email:before {
+  content: "\ea84";
+}
+
 .icon-icon-github:before {
-  content: "\e900";
+  content: "\eab0";
+}
+.icon-icon-linkedin:before {
+  content: "\eaca";
+}
+.icon-icon-steam:before {
+  content: "\eaac";
 }
 .icon-icon-twitter:before {
-  content: "\e901";
+  content: "\ea96";
 }
 
 .me {

@@ -8,6 +8,7 @@ url:              http://theindiangeek.in
 baseurl:          ''
 
 title:            Hiemanshu Sharma
+tagline:          ''
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:      >
@@ -15,6 +16,8 @@ description:      >
 
 # The tags listed as entries in the sidebar
 sidebar_tags:     []
+
+paginator: 5
 
 # Fallback image and color if not overwritten for tag or post
 image:            /public/img/home.jpg
@@ -24,8 +27,11 @@ author:
   name:           'Hiemanshu Sharma'
 
   # Setting social media usernames will add icons at the bottom of the sidebar
+  email:          hi@theindiangeek.in
   twitter:        _TheDarkRider
   github:         hiemanshu
+  steam:          patriarch0
+  linkedin:       hiemanshu
 
   # This photo will be used in the about section
   photo:          /public/img/hiemanshu.png
